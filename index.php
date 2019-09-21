@@ -3,8 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- FONT: LATO -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <!-- FONT: FONTAWESOME -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <!-- CSS: MY STYLE -->
@@ -12,11 +10,36 @@
     <title>Parallelepipedi</title>
   </head>
   <body>
-    <h1>Ciao Mondo</h1>
+    <h1>Il tuo Parallelepipedo</h1>
+    <p class="add">Calcola Area e Volume</p>
+    <div class="container">
+      <div class="box">
+        <p>Figura 1</p>
+        <div class="figura-one">
+          <!-- Template -->
+        </div>
+      </div>
+      <div class="box">
+        <p>Figura 2</p>
+        <div class="figura-two">
+          <!-- Template -->
+        </div>
+      </div>
+      <div class="box">
+        <p>Figura 3</p>
+        <div class="figura-three">
+          <!-- Template -->
+        </div>
+      </div>
+    </div>
     
     <!-- TEMPLATE: MESSAGE MENU -->
     <script id="item-template" type="text/x-handlebars-template">
-        
+      <div class="calc">
+        <p>{{one}} x {{two}} x {{three}}</p>
+        <p>Area: {{area}}</p>
+        <p>Volume: {{volume}}</p>
+      </div>
     </script>
 
     <!-- JS: JQUERY -->
