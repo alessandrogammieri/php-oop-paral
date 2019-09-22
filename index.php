@@ -13,32 +13,20 @@
     <h1>Il tuo Parallelepipedo</h1>
     <p class="add">Calcola Area e Volume</p>
     <div class="container">
-      <div class="box">
-        <p>Figura 1</p>
-        <div class="figura-one">
-          <!-- Template -->
-        </div>
-      </div>
-      <div class="box">
-        <p>Figura 2</p>
-        <div class="figura-two">
-          <!-- Template -->
-        </div>
-      </div>
-      <div class="box">
-        <p>Figura 3</p>
-        <div class="figura-three">
-          <!-- Template -->
-        </div>
-      </div>
+      <!-- Template -->
     </div>
     
     <!-- TEMPLATE: MESSAGE MENU -->
     <script id="item-template" type="text/x-handlebars-template">
-      <div class="calc">
-        <p>{{one}} x {{two}} x {{three}}</p>
-        <p>Area: {{area}}</p>
-        <p>Volume: {{volume}}</p>
+      <div class="box">
+        <p>Parallelepipedo</p>
+        <div class="figura">
+          <div class="calc">
+            <p>{{x}} x {{y}} x {{z}}</p>
+            <p>Area: {{area}}</p>
+            <p>Volume: {{volume}}</p>
+          </div>
+        </div>
       </div>
     </script>
 

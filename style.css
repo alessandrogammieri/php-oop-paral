@@ -27,7 +27,8 @@ h1 {
     width: 800px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    flex-wrap: wrap
 }
 
 .box {
@@ -36,6 +37,7 @@ h1 {
     width: 200px;
     height: 265px;
     text-align: center;
+    margin: 20px 33px 0 33px;
 }
 
 .box p {

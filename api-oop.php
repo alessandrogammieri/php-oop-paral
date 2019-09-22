@@ -21,24 +21,24 @@
         }
     };
 
-    $paral = [
-        new Para(3, 4, 5),
-        new Para(2, 2, 2),
-        new Para(7, 7, 3)
-    ];
+    // $paral = [
+    //     new Para(3, 4, 5),
+    //     new Para(2, 2, 2),
+    //     new Para(7, 7, 3)
+    // ];
 
-    $sumArea = 0;
-    $sumVolume = 0;
-    foreach ($paral as $para) {
-        echo "Parallelepipedo: " . $para -> x . " x " . $para -> y . $para -> z . "<br>";
-        echo "Area: " . $para -> getArea() . "<br>";
-        echo "Volume: " . $para -> getVolume() . "<br><br>";
+    // $sumArea = 0;
+    // $sumVolume = 0;
+    // foreach ($paral as $para) {
+    //     echo "Parallelepipedo: " . $para -> x . " x " . $para -> y . " x " . $para -> z . "<br>";
+    //     echo "Area: " . $para -> getArea() . "<br>";
+    //     echo "Volume: " . $para -> getVolume() . "<br><br>";
 
-        $sumArea += $para -> getArea();
-        $sumVolume += $para -> getVolume();
-    }
+    //     $sumArea += $para -> getArea();
+    //     $sumVolume += $para -> getVolume();
+    // }
 
-    echo "<br>Sum Area: " . $sumArea . "<br>";
-    echo "Sum per: " . $sumVolume;
+    // echo "<br>Sum Area: " . $sumArea . "<br>";
+    // echo "Sum Volume: " . $sumVolume;
 
 ?>
